@@ -9,5 +9,5 @@ function result(){
 }
 
 function clear(){
-    document.getElementById("catculator-scean").value = "";
+    document.getElementById("catculator-scean").value= "";
 }

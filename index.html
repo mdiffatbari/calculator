@@ -43,10 +43,18 @@
                 <td><input type="button" value="+" onclick="calculation('+')"></td>
                 <td><input type="button" value="=" onclick="result('=')"></td>
             </tr>
+
             <tr>
-                <td><input type="button" value="C" onclick="clear()"></td>
+                <td class="clearBtn"><input type="button" value="C"  onclick="clear()"></td>
+                <td class="clearBtn"><input type="button" value="(" onclick="calculation('(')"></td>
+                <td class="clearBtn"><input type="button" value=")" onclick="calculation(')')"></td>
+                <td class="clearBtn"><input type="button" value="%" onclick="calculation('%')"></td>
+                
             </tr>
+
         </table>
+
+        <h4>Made By Md. Iffat Bari</h4>
 
     </div>
 </body>
