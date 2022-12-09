@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Project</title>
 </head>
 <body>
-    
+    <div class="calculator-body">
+        
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="catculator-scean"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="button" value="7" onclick="calculation('7')"></td>
+                <td><input type="button" value="8" onclick="calculation('8')"></td>
+                <td><input type="button" value="9" onclick="calculation('9')"></td>
+                <td><input type="button" value="/" onclick="calculation('/')"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="button" value="4" onclick="calculation('4')"></td>
+                <td><input type="button" value="5" onclick="calculation('5')"></td>
+                <td><input type="button" value="6" onclick="calculation('6')"></td>
+                <td><input type="button" value="*" onclick="calculation('*')"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="button" value="1" onclick="calculation('1')"></td>
+                <td><input type="button" value="2" onclick="calculation('2')"></td>
+                <td><input type="button" value="3" onclick="calculation('3')"></td>
+                <td><input type="button" value="-" onclick="calculation('-')"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="button" value="0" onclick="calculation('0')"></td>
+                <td><input type="button" value="." onclick="calculation('.')"></td>
+                <td><input type="button" value="+" onclick="calculation('+')"></td>
+                <td><input type="button" value="=" onclick="result('=')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="clear()"></td>
+            </tr>
+        </table>
+
+    </div>
 </body>
 </html>

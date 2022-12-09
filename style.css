@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-body{
+    width: 50%;
+    margin: 100px auto;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
